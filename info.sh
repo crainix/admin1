@@ -9,6 +9,11 @@ handle_avi()
     file "$1"
 }
 
+handle_pem()
+{
+       openssl -in "$1"
+}
+
 handle_gz()
 {
     gunzip -l "$1"

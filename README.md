@@ -13,8 +13,8 @@ Add support for X509 certificates in PEM format:
 1. Add hadler for .pem files
 2. Use openssl to get subject and MD5 fingerprint of the certificate
 3. Print the subject and fingerprint on one line separated by three spaces.
-Sample output for cert.pem:
-        `E2:B6:D7:AC:39:E0:80:54:D9:34:28:94:D4:55:B5:1B   /C=EE/ST=Harjumaa/L=Tallinn/O=Edisoft Baltic/CN=HR Test`
+My output for cert.pem:
+        `12:34:09:28:AD:05:ED:39:D3:0B:28:88:6B:9A:41:A5:27:0F:4B:F9   /C=EE/ST=Harjumaa/L=Tallinn/O=Edisoft Baltic/CN=HR Test`
 
 
 Create patch
